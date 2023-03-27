@@ -5,7 +5,7 @@ export const TodoList = () => {
   const { todos } = useAppSelector((state) => state.todo);
 
   return (
-    <div className="py-8 px-2 text-center">
+    <div className="mt-8 px-2 text-center max-h-[80vh] overflow-y-auto scrollbar-hide">
       {todos.length === 0 && (
         <p className="italic text-white">Your Todos will be here...</p>
       )}
