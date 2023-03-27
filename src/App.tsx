@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className="w-screen h-screen bg-purple-500 flex justify-center p-8">
+    <div className="w-screen h-screen bg-[#5b5ba6] flex justify-center p-8">
       <div className="max-w-xl w-full">
         <TodoField text={task} setValue={setTask} onAdd={addNewTodo} />
         <TodoList />

@@ -14,14 +14,14 @@ export const TodoField: React.FC<ITodoFieldProps> = ({
       <label className="border rounded bg-white flex justify-between items-center">
         <input
           type="text"
-          placeholder="Create Your Todo..."
+          placeholder="Create Your Todo List..."
           className="py-2 px-4 w-full h-full outline-none"
           value={text}
           onChange={(e) => setValue(e.target.value)}
         />
         <button
           type="submit"
-          className="py-2 px-4 text-xl bg-yellow-300 transition-all disabled:opacity-[0.5]"
+          className="py-2 px-4 text-xl bg-[#28484c] text-white transition-all disabled:opacity-[0.5]"
           disabled={text.trim().length === 0}
         >
           ✚
