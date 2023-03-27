@@ -13,7 +13,7 @@ export const TodoItem: React.FC<ITodoItemProps> = ({ todo, number }) => {
   const dispatch = useAppDispatch();
 
   return (
-    <li className="flex items-center w-full text-lg font-bold mb-4 cursor-default">
+    <li className="flex items-center w-full text-lg mb-4 cursor-default">
       <input
         type="checkbox"
         checked={completed}
