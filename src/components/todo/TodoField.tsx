@@ -21,7 +21,7 @@ export const TodoField: React.FC<ITodoFieldProps> = ({
         />
         <button
           type="submit"
-          className="py-2 px-4 text-xl bg-[#28484c] text-white transition-all disabled:opacity-[0.5]"
+          className="py-2 px-4 text-xl bg-yellow-400 text-white transition-all disabled:opacity-[0.5]"
           disabled={text.trim().length === 0}
         >
           ✚
